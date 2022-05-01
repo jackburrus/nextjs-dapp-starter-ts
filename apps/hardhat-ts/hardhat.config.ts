@@ -57,6 +57,14 @@ const config: HardhatUserConfig = {
       url: node_url("goerli"),
       accounts: accounts("goerli"),
     },
+    optimism: {
+      url: node_url("optimism"),
+      accounts: accounts("optimism"),
+    },
+    optimismkovan: {
+      url: node_url("optimism-kovan"),
+      accounts: accounts("optimism-kovan"),
+    },
   }),
 
   paths: {
